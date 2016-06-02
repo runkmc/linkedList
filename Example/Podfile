@@ -1,7 +1,0 @@
-use_frameworks!
-target 'SwiftList_Tests' do
-  pod 'SwiftList', :path => '../'
-  
-  pod 'Quick', '~> 0.8'
-  pod 'Nimble', '~> 3.0'
-end
