@@ -1,0 +1,22 @@
+PODS:
+  - Nimble (3.2.0)
+  - Quick (0.9.2)
+  - SwiftList (0.1.0)
+
+DEPENDENCIES:
+  - Nimble (~> 3.0)
+  - Quick (~> 0.8)
+  - SwiftList (from `../`)
+
+EXTERNAL SOURCES:
+  SwiftList:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Nimble: 703854335d181df169bbca9c97117b5cf8c47c1d
+  Quick: 18d057bc66451eedd5d1c8dc99ba2a5db6e60226
+  SwiftList: 32b2247cfdac86159df732860570efe78f3fd9ea
+
+PODFILE CHECKSUM: 0bbe543064e0e59e3d1da4b2e075355ead73acdb
+
+COCOAPODS: 1.0.0
