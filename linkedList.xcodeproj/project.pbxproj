@@ -7,10 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A4EB8961D1FB432002D77A6 /* linkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A4EB8951D1FB432002D77A6 /* linkedList.swift */; };
 		0AE030021CFFF39B00CCBF2B /* linkedListTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AE030011CFFF39B00CCBF2B /* linkedListTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0A4EB8951D1FB432002D77A6 /* linkedList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = linkedList.swift; sourceTree = "<group>"; };
 		0AE02FFE1CFFF39B00CCBF2B /* linkedListTest.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = linkedListTest.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AE030011CFFF39B00CCBF2B /* linkedListTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = linkedListTest.swift; sourceTree = "<group>"; };
 		0AE030031CFFF39B00CCBF2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 			children = (
 				0AE030011CFFF39B00CCBF2B /* linkedListTest.swift */,
 				0AE030031CFFF39B00CCBF2B /* Info.plist */,
+				0A4EB8951D1FB432002D77A6 /* linkedList.swift */,
 			);
 			path = linkedListTest;
 			sourceTree = "<group>";
@@ -118,6 +121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A4EB8961D1FB432002D77A6 /* linkedList.swift in Sources */,
 				0AE030021CFFF39B00CCBF2B /* linkedListTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -248,6 +252,7 @@
 				0AE030061CFFF39B00CCBF2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
