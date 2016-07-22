@@ -8,7 +8,7 @@
 
 import Foundation
 
-public class ListNode<T> {
+final public class ListNode<T> {
     internal(set) var value: T
     internal(set) var next: ListNode?
     
@@ -18,6 +18,6 @@ public class ListNode<T> {
     
 }
 
-class LinkedList<T> {
+final class LinkedList<T> {
     
 }
