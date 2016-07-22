@@ -8,7 +8,13 @@
 
 import Foundation
 
-class ListNode<T> {
+public class ListNode<T> {
+    internal(set) var value: T
+    internal(set) var next: ListNode?
+    
+    init(value:T) {
+        self.value = value
+    }
     
 }
 
