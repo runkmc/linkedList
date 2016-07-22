@@ -8,6 +8,10 @@
 
 import Foundation
 
-struct LinkedList<T> {
+class ListNode<T> {
+    
+}
+
+class LinkedList<T> {
     
 }
